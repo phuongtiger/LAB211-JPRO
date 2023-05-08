@@ -16,6 +16,7 @@ public class J1SP0001 {
 	 */
 	public static void main(String[] args) {
 		System.out.println("Hello LAB211!");
+                System.out.println("Hello pal!");
 	}
 
 	/**
