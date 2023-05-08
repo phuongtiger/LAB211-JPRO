@@ -17,5 +17,12 @@ public class J1SP0001 {
 	public static void main(String[] args) {
 		System.out.println("Hello LAB211!");
 	}
-	
+
+	/**
+	 *
+	 * @param a
+	 */
+	public void show(int a){
+		System.out.println("this is show");	
+	}
 }
