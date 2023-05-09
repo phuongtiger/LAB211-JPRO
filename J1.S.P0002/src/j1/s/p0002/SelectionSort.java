@@ -5,6 +5,8 @@
  */
 package j1.s.p0002;
 
+import java.util.Scanner;
+
 /**
  *
  * @author hoang
@@ -22,23 +24,42 @@ public class SelectionSort {
 
     /**
      *
-     * @param tạo constructor có tham số
+     * @param arr
      */
     public SelectionSort(int[] arr) {
         this.array = arr;
     }
     // hàm setter 
 
+    /**
+     *
+     * @param arr
+     */
     public void setArr(int[] arr) {
         this.array = arr;
     }
 
     /**
      *
+     * @return 
      * @hàm getter
      */
     public int[] getArr() {
         return array;
+    }
+
+    /**
+     *
+     * @param n
+     * @return
+     */
+    public int[] randomNumber(int n) {
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            int code = (int) Math.floor(((Math.random() * 99)));
+            arr[i] = code;
+        }
+        return arr;
     }
 
     /**
