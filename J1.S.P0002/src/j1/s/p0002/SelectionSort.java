@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author hoang
+ * @author HuynhDoanDucSieu-CE170433
  */
 public class SelectionSort {
 
@@ -29,11 +29,9 @@ public class SelectionSort {
     public SelectionSort(int[] arr) {
         this.array = arr;
     }
-    // hàm setter 
-
     /**
      *
-     * @param arr
+     * Setter
      */
     public void setArr(int[] arr) {
         this.array = arr;
@@ -63,7 +61,7 @@ public class SelectionSort {
     }
 
     /**
-     * hàm sắp xếp mảng bằng phương pháp selection sort
+     * selection sort method
      */
     public void sort() {
         int temp;

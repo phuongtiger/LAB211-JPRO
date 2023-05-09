@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author hoang
+ * @author HuynhDoanDucSieu-CE170433
  */
 public class J1SP0002 {
 
@@ -17,10 +17,9 @@ public class J1SP0002 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Enter number of array: ");
-        // tạo lớp scanner sc để nhập số phần tử trong mảng
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        Input in = new Input();
+        in.setInput();
+        int n = in.getInput();
         SelectionSort RandomNumber = new SelectionSort();//Create a object point to address has value
         int tempArr[] = RandomNumber.randomNumber(n);
         SelectionSort Arr = new SelectionSort(tempArr);
