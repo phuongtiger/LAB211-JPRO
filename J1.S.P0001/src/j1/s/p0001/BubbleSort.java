@@ -38,7 +38,14 @@ public class BubbleSort {
     public int[] getArr() {
 		return array;
 	}
-
+    public int[] randomNumber(int n) {
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            int code = (int) Math.floor(((Math.random() * 99)));
+            arr[i] = code;
+        }
+        return arr;
+    }
     /**
      * hàm sắp xếp mảng bằng phương pháp bubble sort
      */
