@@ -42,12 +42,11 @@ public class SelectionSort {
     }
 
     /**
-     * hàm sắp xếp mảng bằng phương pháp bubble sort
+     * hàm sắp xếp mảng bằng phương pháp selection sort
      */
     public void sort() {
         int temp;
         int loc;
-        int loc2;
         int n = array.length;
         for (int i = 0; i < n; i++) {
             loc = i;
